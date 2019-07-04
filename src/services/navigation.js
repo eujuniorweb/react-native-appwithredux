@@ -5,7 +5,7 @@ export function setNavigator(ref) {
   navigator = ref;
 }
 export function navigate(routeName, params) {
-  navigator.dipatch(
+  navigator.dispatch(
     NavigationActions.navigate({
       routeName,
       params,
